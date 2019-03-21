@@ -12,7 +12,10 @@ class School
     @student = student
     roster[grade] ||= []
     roster[grade] << student
+  end
 
+  def grade(grades)
+    puts roster[grades]
   end
 
 
