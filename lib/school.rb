@@ -8,6 +8,6 @@ class School
     @school_name =school_name
   end
 
-  
+
 
 end
