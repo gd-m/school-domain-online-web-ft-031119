@@ -15,9 +15,11 @@ class School
   end
 
   def grade(grades)
-    puts roster[grades]
+    roster.detect do |x, y|
+      if x == grades
+        return y
+      end
+    end
   end
-
-
 
 end
